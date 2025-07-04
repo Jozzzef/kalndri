@@ -1,8 +1,11 @@
-mod routes;
+// mod routes;
+// routes::handle_request(req);
+// #[tokio::main]
+//async fn main() {
+//    println!("Hello, world!");
+// 
+// }
 
-#[tokio::main]
-async fn main() {
-    println!("Hello, world!");
-
-    routes::handle_request(req);
+fn main() {
+    println!("Hello World")
 }

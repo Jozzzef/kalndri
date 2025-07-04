@@ -5,17 +5,16 @@ edition = "2024"
 
 [dependencies]
 # templating
-handlebars = {version = "6.3.2"}
-
-# HTML manipulation
-
-# proc macros
-syn = {version = "2.0.104"}
+handlebars = { version = "6.3.2" }
 
 # server side
-axum = {version = "0.5"}
+axum = { version = "0.5" }
 tokio = { version = "1", features = ["full"] }
 
 # json
 serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
+serde_json = { version = "1.0" }
+
+# proc macros
+syn = { version = "2.0.104" }
+
