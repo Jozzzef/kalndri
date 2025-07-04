@@ -1,8 +1,6 @@
 // route function calls 
 
 use axum::{
-    routing::get,
-    Router,
     response::{
         Html
     }
